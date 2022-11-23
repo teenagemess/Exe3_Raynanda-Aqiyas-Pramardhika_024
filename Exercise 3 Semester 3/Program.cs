@@ -66,6 +66,23 @@ namespace Exercise_3_Semester_3
             else
                 Console.WriteLine("\nThe first record in the list is:\n\n " + LAST.next.rollNumber + "   " + LAST.next.name);
         }
+        static void Main(string[] args)
+        {
+            CircularList obj = new CircularList();
+            while(true)
+            {
+                try
+                {
+                    Console.WriteLine("\nMenu");
+                    Console.WriteLine("1. View all the records in the list");
+                    Console.WriteLine("2. Search for a record in the list");
+                    Console.WriteLine("3. Display the first record in the list");
+                    Console.WriteLine("4. Exit");
+                    Console.WriteLine("\nEnter your choice (1-4): ");
+                    char ch = Convert.ToChar(Console.ReadLine());
+                }
+            }
+        }
             
     }
         
