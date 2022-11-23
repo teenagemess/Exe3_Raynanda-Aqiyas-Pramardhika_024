@@ -17,10 +17,7 @@ namespace Exercise_3_Semester_3
     {
         Node LAST;
         
-        public CircularList()
-        {
-            LAST = null;
-        }
+       
         public bool Search(int rollNo, ref Node previous, ref Node current)
         //Searches for the specified node
         {
