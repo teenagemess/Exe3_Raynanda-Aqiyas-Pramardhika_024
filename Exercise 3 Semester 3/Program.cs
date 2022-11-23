@@ -13,11 +13,15 @@ namespace Exercise_3_Semester_3
         public string name;
         public Node next;
     }
+
     class CircularList
     {
         Node LAST;
         
-       
+        public CircularList()
+        {
+            LAST = null;
+        }
         public bool Search(int rollNo, ref Node previous, ref Node current)
         //Searches for the specified node
         {
